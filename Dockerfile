@@ -23,8 +23,8 @@ ENV GOROOT  /usr/local/go
 RUN go get github.com/MohamedFAhmed/GoLang-Hello-World
 
 # Adding source files to the directory
-WORKDIR /go/src/github.com/user/hello/
-ADD . /go/src/github.com/user/hello/
+WORKDIR /go/src/github.com/MohamedFAhmed/GoLang-Hello-World
+ADD . /go/src/github.com/MohamedFAhmed/GoLang-Hello-World
 
 # Fetch new dependencies if any
 RUN go get
