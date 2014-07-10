@@ -12,7 +12,7 @@ RUN apt-get update
 RUN apt-get install -y curl git bzr mercurial
 
 # Installing Go
-RUN curl -s http://golang.org/dl/go1.3.linux-amd64.tar.gz | tar -v -C /usr/local/ -xz
+RUN curl -s https://go.googlecode.com/files/go1.2.linux-amd64.tar.gz | tar -v -C /usr/local/ -xz
 
 # Setting Go env vars
 ENV PATH  /usr/local/go/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
