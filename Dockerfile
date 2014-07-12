@@ -33,4 +33,4 @@ RUN go get
 RUN go build
 
 # Set entrypoint
-ENTRYPOINT ./hello
+ENTRYPOINT ./GoLang-Hello-World
