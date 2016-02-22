@@ -30,6 +30,7 @@ ADD . /go/src/github.com/MohamedFAhmed/GoLang-Hello-World
 RUN go get
 
 # Install application
+#Just an update
 RUN go build
 
 # Set entrypoint
